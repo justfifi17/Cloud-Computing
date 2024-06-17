@@ -31,9 +31,7 @@ Together, Kubernetes and GCP offer a powerful platform for deploying and managin
 ### How to Use
 ● Clone the repository and navigate to the project directory.
 
-● Follow the steps on the Google Slides linked at the buttom.  
-
-● Create the Replication Controller YAML file - "sudo vim kubia-rc.yaml"
+● Follow the steps from the Google Slides linked below.  
 
 ● Copy and paste the content from the "kubia-rc.yaml" file when creating the YAML file, then save and exit. 
 
