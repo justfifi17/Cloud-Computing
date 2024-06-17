@@ -1,5 +1,6 @@
 # HTTP JSON API Node.js Time Server 🕒
-## A simple Node.js server application that handles HTTP requests and responds current time with JSON data
+## ** A simple Node.js server app that handles HTTP requests and responds current time with JSON data
+#
 #
 ### Brief Introduction to the work 
 This project involves creating an HTTP server in Node.js that listens for requests on a specific route ('/api/currenttime'). When a request is received, the server will generate the current date and time and send it back to the client in a JSON format. This project creates a basic HTTP server in Node.js and handle JSON data.
@@ -27,7 +28,18 @@ This project demonstrates the power and flexibility of Node.js for creating ligh
 
 #
 
-### Google Slides - For more details on the project and step-by-step guide on implementation.  
+### How to Use
+● Clone the repository and navigate to the project directory.
+● Run node server.js to start the server.
+● Access endpoints via http://localhost:8000/api/currenttime and other provided endpoints for time data.
+
+#
+
+### Contributions
+Contributions are welcome! If you have ideas for improvement or have found a bug, please open an issue or a pull request.
+
+#
+### Google Slides - For more details on the project and step-by-step guide on implementation and installation.  
 https://docs.google.com/presentation/d/1lYIkA7FOotpqiKnrwCR7k41CZL8pMAK5Q5Sm5pjZnd8/edit?usp=sharing
 
 
