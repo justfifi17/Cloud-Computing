@@ -34,8 +34,10 @@ This project demonstrates the power and flexibility of Node.js for creating ligh
 
 ### How to Use
 ● Clone the repository and navigate to the project directory.
+
 ● Run node server.js to start the server.
-● Access endpoints via http://localhost:8000/api/currenttime and other provided endpoints for time data.
+
+● Access endpoints via "http://localhost:8000/api/currenttime" and other provided endpoints for time data.
 
 #
 
