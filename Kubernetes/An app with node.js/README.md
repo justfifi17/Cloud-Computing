@@ -1,6 +1,6 @@
 # ☸ Running App on Kubernetes 🐳
 
-#### * Running multi-node Kubernetes cluster on Cloud using a hosted Kubernetes cluster with Google Kubernetes Engine  - three nodes*
+#### * Running multi-node Kubernetes cluster on Cloud using a hosted Kubernetes cluster with Google Kubernetes Engine *
 #
 
 
