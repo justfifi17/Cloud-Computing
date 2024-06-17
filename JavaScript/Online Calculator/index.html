@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+ <title>Simple Online Calculator</title>
+ <link rel="stylesheet" href="styles.css"> <!-- connecting it with CSS file -->
+
+</head>
+
+<body>
+
+ <div id="calculator">
+  <input type="text" id="screen" readonly> <!-- set on readonly so users can not edit what is displayed on screen -->
+
+  <button onclick="clearScreen()" style="grid-column: span 2;">Clear</button> <!-- Clear button takes a space of 2 columns/buttons -->
+  <button onclick="calculateResult()">=</button> <!-- clicking the = button triggers the calculateResult() function to give final result -->
+  <button onclick="appendToScreen('(')">(</button> <!-- clicking the ( button triggers the appendToScreen() function to display that character -->
+  <button onclick="appendToScreen(')')">)</button>
+
+  <button onclick="appendToScreen('*')">*</button>
+  <button onclick="appendToScreen('/')">/</button>
+  <button onclick="appendToScreen('+')">+</button>
+  <button onclick="appendToScreen('-')">-</button>
+  <button onclick="appendToScreen('.')">.</button>
+
+  <button onclick="appendToScreen('1')">1</button>
+  <button onclick="appendToScreen('2')">2</button>
+  <button onclick="appendToScreen('3')">3</button>
+  <button onclick="appendToScreen('4')">4</button>
+  <button onclick="appendToScreen('5')">5</button>
+
+  <button onclick="appendToScreen('6')">6</button>
+  <button onclick="appendToScreen('7')">7</button>
+  <button onclick="appendToScreen('8')">8</button>
+  <button onclick="appendToScreen('9')">9</button>
+  <button onclick="appendToScreen('0')">0</button>
+ </div>
+
+<script src="script.js"></script> <!-- connecting it with Javascript file -->
+</body>
+
+</html>
