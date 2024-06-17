@@ -1,5 +1,5 @@
 # HTTP JSON API Node.js Time Server 🕒
-## ** A simple Node.js server app that handles HTTP requests and responds current time with JSON data
+#### * A simple Node.js server app that handles HTTP requests and responds current time with JSON data*
 
 
 ### Brief Introduction to the work 
