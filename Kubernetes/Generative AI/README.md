@@ -69,5 +69,5 @@ To stop the application, go to the terminal where the services are running and p
 
 ### For clearer understanding or the project, take a look at the [Google Slides](https://docs.google.com/presentation/d/1EdzEpeF6iJ1zyntC6XyDx1tWQC0jNTQy9QDKg9YvT1w/edit?usp=sharing)
 
-### For step by step instructions on building this project, [View the PDF](./Cloud-Computing/Kubernetes/Generative containerized transcription and chatapp.pdf)
+### For step-by-step instructions on building this project, [View the PDF](./containerized%20video%20transcription%20and%20chat%20app.pdf)
 
