@@ -96,4 +96,4 @@ Ensure you have the following installed:
 ### For better understanding on the project, check out my [Google Slides](https://docs.google.com/presentation/d/1Vj2J90MlSSBiYHNByMXgfAgAYdyo7q0k3jkRg9tilj4/edit?usp=sharing)
 
 
-### For clearer follow-up steps to build the project, follow my [file]()
+### For clearer follow-up steps to build the project, follow my [file](./Machine-learning-on-kubernetes.pdf)
