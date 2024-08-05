@@ -38,16 +38,19 @@ cd cs571-signature-project
 ## Steps
 ### Step 1: Create MongoDB using Persistent Volume on GKE
 1- Create a GKE Cluster:
+
 ```gcloud container clusters create kubia --num-nodes=1 --machine-type=e2-micro --region=us-west1```
 
 2- Create a Persistent Volume:
 
 If you haven’t created one in a previous exercise, do so now:
+
 ```gcloud compute disks create --size=10GiB --zone=us-west1-a mongodb```
 
 3- Deploy MongoDB:
 
 Create a mongodb-deployment.yaml file and deploy MongoDB:
+
 
 ```kubectl apply -f mongodb-deployment.yaml```
 
@@ -156,4 +159,4 @@ Network Issues: Ensure that your firewall rules allow traffic to the necessary p
 
 For clearer understanding on the project take a look at my ## [Google Slides](https://docs.google.com/presentation/d/188Yyq0q6AsKR6UD5bEQoY7TZ7UlGZRVsXPz3Q56cS9g/edit?usp=sharing)
 
-For step by step follow up on building the project refer my [pdf file]
+For step by step follow up on building the project refer my [pdf file](./signature-project.pdf)
