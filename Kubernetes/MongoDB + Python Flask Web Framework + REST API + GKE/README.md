@@ -30,8 +30,8 @@ Before you begin, ensure you got these tools:
   
 3. Clone the Project Repository
 Clone the Repository: Use the following command to clone the project repository:
-
-```git clone https://github.com/yourusername/cs571-signature-project.git
+```
+git clone https://github.com/yourusername/cs571-signature-project.git
 cd cs571-signature-project
 ```
 
@@ -66,8 +66,8 @@ Ensure the MongoDB service is running and accessible:
 6- Insert Records into MongoDB:
 
 Use Node.js to insert sample data into MongoDB:
-
-```var MongoClient = require('mongodb').MongoClient;
+```
+var MongoClient = require('mongodb').MongoClient;
 var url = "mongodb://EXTERNAL-IP/mydb";
 // Connect to the db and insert records
 ```
@@ -76,16 +76,16 @@ var url = "mongodb://EXTERNAL-IP/mydb";
 1- Create studentServer.js: This server interacts with the MongoDB instance. I have added that file above
 
 2- Create a Dockerfile:
-
-```FROM node:7
+```
+FROM node:7
 ADD studentServer.js /studentServer.js
 ENTRYPOINT ["node", "studentServer.js"]
 RUN npm install mongodb
 ```
 
 3- Build and Push the Docker Image:
-
-```docker build -t yourdockerhubID/studentserver .
+```
+docker build -t yourdockerhubID/studentserver .
 
 docker push yourDockerID/studentserver
 ```
@@ -94,8 +94,8 @@ docker push yourDockerID/studentserver
 1- Create bookshelf.py: This is a Flask application to manage a collection of books.
 
 2. Create a Dockerfile: 
-
-```FROM python:alpine3.7
+```
+FROM python:alpine3.7
 COPY . /app
 WORKDIR /app
 RUN pip install -r requirements.txt
@@ -106,8 +106,8 @@ CMD ["bookshelf.py"]
 ```
 
 3- Build and Push the Docker Image
-
-```docker build -t yourDockerID/bookshelf .
+```
+docker build -t yourDockerID/bookshelf .
 docker push yourDockerID/bookshelf
 ```
 
