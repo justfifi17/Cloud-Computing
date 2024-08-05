@@ -157,6 +157,6 @@ Network Issues: Ensure that your firewall rules allow traffic to the necessary p
 
 
 
-For clearer understanding on the project take a look at my ## [Google Slides](https://docs.google.com/presentation/d/188Yyq0q6AsKR6UD5bEQoY7TZ7UlGZRVsXPz3Q56cS9g/edit?usp=sharing)
+#### For clearer understanding on the project take a look at my [Google Slides](https://docs.google.com/presentation/d/188Yyq0q6AsKR6UD5bEQoY7TZ7UlGZRVsXPz3Q56cS9g/edit?usp=sharing)
 
-For step by step follow up on building the project refer my [pdf file](./signature-project.pdf)
+### For step by step follow up on building the project refer my [pdf file](./signature-project.pdf)
