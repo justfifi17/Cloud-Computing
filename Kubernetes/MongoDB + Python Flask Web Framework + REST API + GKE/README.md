@@ -1,10 +1,11 @@
-# Configmap: Signature Project: MongoDB + Python Flask Web Framework + REST API + GKE Copy
+# Configmap: Signature Project: MongoDB + Python Flask Web Framework + REST API + GKE
+
 ## Overview 
-This project demonstrates deploying a MongoDB instance on Google Kubernetes Engine (GKE) and creating containerized applications that interact with it. The goal is to manage cloud infrastructure and deploy scalable applications using Kubernetes.
+Welcome! This project demonstrates deploying a MongoDB instance on Google Kubernetes Engine (GKE) and creating containerized applications that interact with it. The goal is to manage cloud infrastructure and deploy scalable applications using Kubernetes. 
 
 
 ## Prerequisites
-Before you begin, ensure you got these tools:
+Before you begin, make sure you got these tools:
 
 - Google Cloud Platform (GCP) Account: Access to Google Cloud services to create and manage GKE clusters.
 - Docker: Installed on your local machine to build and push container images.
@@ -158,6 +159,6 @@ Network Issues: Ensure that your firewall rules allow traffic to the necessary p
 
 #
 
-### For clearer understanding on the project take a look at my [Google Slides](https://docs.google.com/presentation/d/188Yyq0q6AsKR6UD5bEQoY7TZ7UlGZRVsXPz3Q56cS9g/edit?usp=sharing)
+### For more details on the project, take a look at my [Google Slides](https://docs.google.com/presentation/d/188Yyq0q6AsKR6UD5bEQoY7TZ7UlGZRVsXPz3Q56cS9g/edit?usp=sharing)
 
 ### For step by step follow up on building the project refer my [pdf file](./signature-project.pdf)
