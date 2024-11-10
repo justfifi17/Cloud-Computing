@@ -1,1 +1,1 @@
-## 🚀 Cloud Computing Projects 👩🏻‍💻
+## 🚀 Cloud Computing Course Projects 👩🏻‍💻
